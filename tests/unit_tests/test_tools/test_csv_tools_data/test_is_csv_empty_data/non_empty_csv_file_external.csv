@@ -1,0 +1,2 @@
+historical_data_type,stock_name,fno,interval,from_date_string,to_date_string,instrument_key
+modified2,NIFTY 50,False,2minute,15-Jun-2022 15:13,16-Jun-2022 09:27,modified__NIFTY 50__False__2minute__15_Jun_2022 15_13__16_Jun_2022 09_27

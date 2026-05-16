@@ -1,0 +1,176 @@
+----------------------------------------------------------------------------------------------------
+instrument_token   =   NIFTY2260916150CE
+
+time   =   2022-06-06 09:48:00+05:30
+
+opening_order   =   True
+
+trigger   =   signal
+
+holding_period   =   intraday
+
+product_type   =   options
+
+transaction_type   =   BUY
+
+order_type   =   market
+
+average_price   =   390.94
+
+quantity   =   250.0
+
+stop_loss   =   0.1
+
+target   =   0.3
+
+stop_loss_price   =   351.85
+
+target_price   =   508.22
+
+time_till_sell_trigger   =   None
+
+amount_spent_without_charges   =   97735.0
+
+net_funds_without_charges_change_percentage   =   -48.87%
+
+net_funds_without_charges   =   102265.0
+
+amount_spent   =   97822.75
+
+net_funds_change_percentage   =   -48.91%
+
+net_funds   =   102177.25
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+instrument_token   =   NIFTY2260916150CE
+
+time   =   2022-06-06 10:17:00+05:30
+
+opening_order   =   False
+
+trigger   =   bullish early exit
+
+holding_period   =   intraday
+
+product_type   =   options
+
+transaction_type   =   SELL
+
+order_type   =   market
+
+average_price   =   380.39
+
+quantity   =   250.0
+
+stop_loss   =   None
+
+target   =   None
+
+stop_loss_price   =   None
+
+target_price   =   None
+
+time_till_buy_trigger   =   None
+
+amount_earned_without_charges   =   95097.5
+
+net_funds_without_charges_change_percentage   =   92.99%
+
+net_funds_without_charges   =   197362.5
+
+amount_earned   =   94966.78
+
+net_funds_change_percentage   =   92.94%
+
+net_funds   =   197144.03
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+instrument_token   =   NIFTY2260916150CE
+
+time   =   2022-06-06 10:27:00+05:30
+
+opening_order   =   True
+
+trigger   =   signal
+
+holding_period   =   intraday
+
+product_type   =   options
+
+transaction_type   =   BUY
+
+order_type   =   market
+
+average_price   =   412.05
+
+quantity   =   200.0
+
+stop_loss   =   0.1
+
+target   =   0.3
+
+stop_loss_price   =   370.85
+
+target_price   =   535.67
+
+time_till_sell_trigger   =   None
+
+amount_spent_without_charges   =   82410.0
+
+net_funds_without_charges_change_percentage   =   -41.76%
+
+net_funds_without_charges   =   114952.5
+
+amount_spent   =   82487.69
+
+net_funds_change_percentage   =   -41.84%
+
+net_funds   =   114656.34
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+instrument_token   =   NIFTY2260916150CE
+
+time   =   2022-06-06 10:32:00+05:30
+
+opening_order   =   False
+
+trigger   =   bullish early exit
+
+holding_period   =   intraday
+
+product_type   =   options
+
+transaction_type   =   SELL
+
+order_type   =   market
+
+average_price   =   380.29
+
+quantity   =   200.0
+
+stop_loss   =   None
+
+target   =   None
+
+stop_loss_price   =   None
+
+target_price   =   None
+
+time_till_buy_trigger   =   None
+
+amount_earned_without_charges   =   76058.0
+
+net_funds_without_charges_change_percentage   =   66.16%
+
+net_funds_without_charges   =   191010.5
+
+amount_earned   =   75948.73
+
+net_funds_change_percentage   =   66.24%
+
+net_funds   =   190605.07
+----------------------------------------------------------------------------------------------------
+
