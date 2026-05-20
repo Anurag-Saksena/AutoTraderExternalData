@@ -47,6 +47,21 @@ echo ""
 aws s3 sync "$S3_PREFIX" "$LOCAL_PATH" \
     --delete \
     --region "$AWS_REGION" \
+    --exclude ".idea/*" \
+    --exclude "throwaway/*" \
+    --exclude "tests/*" \
+    --exclude "__pycache__/*" \
+    --exclude "*.pyc" \
+    --exclude ".git/*" \
+    --exclude "s3_sync/*" \
+    --exclude "main_external.py" \
+    --exclude "historical_data/logs.txt" \
+    --exclude "historical_data/historical_data_log.txt" \
+    --exclude "historical_data/historical_data_log_archived.txt" \
+    --exclude "kite_connect/kite_api_log.txt" \
+    --exclude "live_log.txt" \
+    --exclude "live_log - archived.txt" \
+    --exclude "cache/historical_data_cache_statistics.txt" \
     $DRY_RUN
 
 ELAPSED=$(( $(date +%s) - START ))

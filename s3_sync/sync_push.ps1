@@ -38,13 +38,23 @@ $syncArgs = @(
     $S3_PREFIX,
     "--delete",
     "--region", $AWS_REGION,
+    # Git-managed code (synced via git, not S3)
     "--exclude", ".idea/*",
     "--exclude", "throwaway/*",
     "--exclude", "tests/*",
     "--exclude", "__pycache__/*",
     "--exclude", "*.pyc",
     "--exclude", ".git/*",
-    "--exclude", "s3_sync/*"
+    "--exclude", "s3_sync/*",
+    "--exclude", "main_external.py",
+    # Log files (generated at runtime, not data)
+    "--exclude", "historical_data/logs.txt",
+    "--exclude", "historical_data/historical_data_log.txt",
+    "--exclude", "historical_data/historical_data_log_archived.txt",
+    "--exclude", "kite_connect/kite_api_log.txt",
+    "--exclude", "live_log.txt",
+    "--exclude", "live_log - archived.txt",
+    "--exclude", "cache/historical_data_cache_statistics.txt"
 )
 
 if ($args -contains "--dry-run") {
